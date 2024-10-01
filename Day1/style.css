@@ -1,0 +1,26 @@
+*{
+    margin :0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(223, 218, 211);
+}
+#heading{
+    background-color:cornsilk;
+    font-size: 30px;
+    border-color: brown;
+    border-style: dotted;
+    border-radius: 12px;
+    color: black;
+    text-align: center;
+}
+table{
+    width: 50%;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+/* }
+#container{
+    /* display: ; */
+} */
