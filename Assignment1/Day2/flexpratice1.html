@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 2px white;
+    height: 600px;
+    display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: space-around;
+  padding-bottom:70px;
+  background-color:grey;
+}
+.Box{
+    background-color:black;
+    border: 1px solid;
+    border-radius: 2.5%;
+    height: 400px;
+    width: 300px;
+    color:azure;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    box-shadow: 10px 10px 10px 10px black;
+    }
+button{
+    background-color:transparent;
+    color: blue;
+    height: 20px;
+    width: 40px;
+}
+h{
+    color:coral;
+    padding-top: 20px;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+a{
+    color:azure;
+    margin: 140px;
+}p{
+    padding-left: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+#image{
+    padding-top: 20px;
+    height: 120px;
+    width: 90px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul><br><a >PRODUCTS</a>
+                <a>DISCOUNTS</a>
+                <a>OUR PARTNERS</a>
+                <a>ABOUT US</a></ul>
+        </nav>
+    </div>
+    <div class="parent">
+        <div class="Box" id="Box-1">
+            <img src="https://i.redd.it/rd15nf12clq91.jpg" align="center" id="image">
+           <br><br> <h>MATTE</h><br>
+            <p> a subtle but elegants finish for low-touch and delicate surface</p><br><br><br>
+            <button>Explore</button>
+        </div>
+        <div class="Box" id="Box-2">
+            <img src=" https://www.thespruce.com/thmb/cnnCYcVjyFRGIO6xlHi__3Kdmyk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-semi-gloss-vs-satin-7110038-hero_83930-ab096f6b63124f249830f43f4392c188.jpg" align="center" id="image">
+           <br><br> <h>SEMI-GLOSS</h><br>
+            <p>our signature finish for high-wear parts ,details and surface</p><br><br><br>
+            <button>Explore</button>
+        </div>
+        <div class="Box" id="Box-3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Itf72GSm23thJmoBljgvDStK4kwsG9sgmA&s" align="center" id="image"><br><br>
+            <h>HIGH-GLOSS</h><br>
+            <p> an eye-stopping shine best for metal and other smooth surface</p><br><br><br>
+            <button>Explore</button>
+        </div>
+    </div>
+</body>
+</html>
